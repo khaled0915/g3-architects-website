@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 
 .btn-primary{
     border-radius: 8px;
@@ -191,7 +195,19 @@ padding: 30px;
 .sponsors-img img{
     width: 165px;
 }
+ 
+/* footer styles */
+.footer{
+    border-radius: 8px;
+background: #FFF4E7;
+margin-left: 240px;
+margin-right: 240px;
+}
+.footer p{
+    text-align: center;
+    padding: 40px 0;
 
+}
 
 
 
@@ -209,7 +225,7 @@ padding: 30px;
     .teams-container,
     .facts-cards-container,
     .sponsors-img,
-    .features
+    .features,
     {
         flex-direction: column;
     }
@@ -230,6 +246,11 @@ padding: 30px;
     .ten-years-badge{
         position: static;
         max-width: 300px;
+    }
+    .footer{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
     }
 }
 
